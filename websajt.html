@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Faqja Ime</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Premium<span>Auto</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Kryefaqja</a></li>
+                <li><a href="#inventory">Inventari</a></li>
+                <li><a href="#about">Rreth Nesh</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Gjeni Makinën Tuaj të Ëndrrave</h2>
+            <p>Koleksioni ynë premium i makinave luksoze në çmime konkurruese</p>
+            <a href="#inventory" class="btn">Eksploro Tani</a>
+        </div>
+        <div class="hero-car">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Mercedes-Benz_W_463_%282018%29_Professional_Line_IAA_2021_1X7A0207.jpg" alt="Makina kryesore" id="main">
+        </div>
+        <div class="floating-elements">
+            <div class="circle"></div>
+            <div class="square"></div>
+            <div class="triangle"></div>
+        </div>
+    </section>
+
+    <section class="inventory" id="inventory">
+        <h2>Inventari Ynë</h2>
+        <div class="filter">
+            <button class="filter-btn active" data-filter="all">Të Gjitha</button>
+            <button class="filter-btn" data-filter="suv">SUV</button>
+            <button class="filter-btn" data-filter="sedan">Sedan</button>
+            <button class="filter-btn" data-filter="sportive">Sportive</button>
+        </div>
+        <div class="car-grid">
+            <!-- Makinat do të shtohen me JavaScript -->
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>Rreth Nesh</h2>
+            <p>Premium Auto është lider në shitjen e makinave luksoze në rajon. Me më shumë se 15 vjet përvojë, ne ofrojmë cilësinë më të mirë dhe shërbimin më profesional.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Klientë të Kënaqur</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Modele Në Stok</p>
+                </div>
+                <div class="stat-item">
+                    <h3>15</h3>
+                    <p>Vjet Përvojë</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="https://www.topgear.com/sites/default/files/images/news-article/2016/09/ff88d2ef77384dcf94ba152168ffa19b/_fm_3198.jpg" alt="Showroomi ynë">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Na Kontaktoni</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Rruga e Hasan Prishtines, Peja, Kosove</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+355 4X XXX XXXX</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@premiumauto.com</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Emri Juaj" required>
+                <input type="email" placeholder="Email Juaj" required>
+                <input type="tel" placeholder="Telefoni Juaj">
+                <textarea placeholder="Mesazhi Juaj" required></textarea>
+                <button type="submit" class="btn">Dërgo Mesazhin</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Premium Auto</h3>
+                <p>Specialistë në makina luksoze dhe të përdorura me cilësi të lartë.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Linqe të Shpejta</h3>
+                <ul>
+                    <li><a href="#home">Kryefaqja</a></li>
+                    <li><a href="#inventory">Inventari</a></li>
+                    <li><a href="#about">Rreth Nesh</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Na Ndiqni</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Premium Auto. Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
